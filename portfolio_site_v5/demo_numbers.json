@@ -1,0 +1,222 @@
+{
+  "label": "Demo on synthetic data. Not a client result.",
+  "company": "Demo Company",
+  "seed": 20241101,
+  "period_start": "2024-11-01",
+  "as_of": "2026-10-31",
+  "total_leads": 2258,
+  "total_quotes": 1802,
+  "quotes_sent": 1768,
+  "close_rate": 0.3857,
+  "close_rate_definition": "Converted quotes divided by sent quotes (Draft excluded)",
+  "median_response_minutes": 175.0,
+  "share_leads_replied_within_60m": 0.244,
+  "unconverted_quote_value_over_14_days": 365199.47,
+  "unconverted_quotes_over_14_days": 277,
+  "unconverted_definition": "Status Awaiting response and Sent date more than 14 days before as_of",
+  "close_rate_by_response_bucket": {
+    "<=15m": {
+      "close_rate": 0.5631,
+      "n": 103
+    },
+    "15 to 60m": {
+      "close_rate": 0.4379,
+      "n": 354
+    },
+    "1 to 4h": {
+      "close_rate": 0.421,
+      "n": 582
+    },
+    "4 to 24h": {
+      "close_rate": 0.3368,
+      "n": 582
+    },
+    ">24h": {
+      "close_rate": 0.1905,
+      "n": 147
+    }
+  },
+  "close_rate_under_15m": 0.5631,
+  "close_rate_over_24h": 0.1905,
+  "avg_ticket_by_job_type": {
+    "Duct cleaning": 545.33,
+    "Install": 4970.78,
+    "Repair": 553.47,
+    "Replacement": 9501.87,
+    "Tune up": 191.63
+  },
+  "margin_by_job_type": {
+    "Duct cleaning": 0.6622,
+    "Install": 0.4288,
+    "Repair": 0.3732,
+    "Replacement": 0.3973,
+    "Tune up": 0.6525
+  },
+  "margin_definition": "(job_total minus labor_cost minus materials_cost) divided by job_total, summed by job type",
+  "jobs_by_job_type": {
+    "Duct cleaning": 70,
+    "Install": 35,
+    "Repair": 287,
+    "Replacement": 101,
+    "Tune up": 222
+  },
+  "invoices_not_paid_share": 0.0552,
+  "quotes_awaiting_response_share": 0.1632,
+  "monthly_leads_and_booked_revenue": [
+    {
+      "month": "2024-11",
+      "leads": 55,
+      "booked_revenue": 28000
+    },
+    {
+      "month": "2024-12",
+      "leads": 82,
+      "booked_revenue": 15000
+    },
+    {
+      "month": "2025-01",
+      "leads": 82,
+      "booked_revenue": 116000
+    },
+    {
+      "month": "2025-02",
+      "leads": 73,
+      "booked_revenue": 11000
+    },
+    {
+      "month": "2025-03",
+      "leads": 69,
+      "booked_revenue": 81000
+    },
+    {
+      "month": "2025-04",
+      "leads": 74,
+      "booked_revenue": 51000
+    },
+    {
+      "month": "2025-05",
+      "leads": 95,
+      "booked_revenue": 14000
+    },
+    {
+      "month": "2025-06",
+      "leads": 120,
+      "booked_revenue": 54000
+    },
+    {
+      "month": "2025-07",
+      "leads": 140,
+      "booked_revenue": 123000
+    },
+    {
+      "month": "2025-08",
+      "leads": 137,
+      "booked_revenue": 26000
+    },
+    {
+      "month": "2025-09",
+      "leads": 114,
+      "booked_revenue": 55000
+    },
+    {
+      "month": "2025-10",
+      "leads": 70,
+      "booked_revenue": 42000
+    },
+    {
+      "month": "2025-11",
+      "leads": 59,
+      "booked_revenue": 33000
+    },
+    {
+      "month": "2025-12",
+      "leads": 80,
+      "booked_revenue": 27000
+    },
+    {
+      "month": "2026-01",
+      "leads": 95,
+      "booked_revenue": 52000
+    },
+    {
+      "month": "2026-02",
+      "leads": 83,
+      "booked_revenue": 30000
+    },
+    {
+      "month": "2026-03",
+      "leads": 55,
+      "booked_revenue": 54000
+    },
+    {
+      "month": "2026-04",
+      "leads": 65,
+      "booked_revenue": 39000
+    },
+    {
+      "month": "2026-05",
+      "leads": 102,
+      "booked_revenue": 36000
+    },
+    {
+      "month": "2026-06",
+      "leads": 120,
+      "booked_revenue": 143000
+    },
+    {
+      "month": "2026-07",
+      "leads": 151,
+      "booked_revenue": 108000
+    },
+    {
+      "month": "2026-08",
+      "leads": 159,
+      "booked_revenue": 114000
+    },
+    {
+      "month": "2026-09",
+      "leads": 87,
+      "booked_revenue": 45000
+    },
+    {
+      "month": "2026-10",
+      "leads": 91,
+      "booked_revenue": 72000
+    }
+  ],
+  "monthly_definition": "Booked revenue is rounded to the nearest $1,000 per month.",
+  "leads_by_source": {
+    "Google": 603,
+    "Google Local Services Ads": 494,
+    "Repeat customer": 366,
+    "Referral": 310,
+    "Website form": 294,
+    "Nextdoor": 191
+  },
+  "awaiting_quote_value_by_age": [
+    {
+      "age": "0 to 7 days",
+      "value": 3000
+    },
+    {
+      "age": "8 to 14 days",
+      "value": 13000
+    },
+    {
+      "age": "15 to 30 days",
+      "value": 25000
+    },
+    {
+      "age": "31 to 60 days",
+      "value": 25000
+    },
+    {
+      "age": "61 to 90 days",
+      "value": 25000
+    },
+    {
+      "age": "Over 90 days",
+      "value": 291000
+    }
+  ]
+}
